@@ -1,0 +1,59 @@
+body {
+    background-color: blue;
+    margin: 20px
+}
+
+nav { 
+    background-color: blueviolet;
+    min-width: 200px;
+}
+ul {
+    list-style-type: none;
+   }
+
+main {
+    background-color: chartreuse;
+    padding: 20px;
+}
+
+aside { 
+    background-color: deeppink;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+header, footer {
+    background-color: floralwhite;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container{
+    background-color: darkseagreen;
+    display: flex;
+    min-height: 880px;
+}
+
+@media (min-width: 580px), screen and (max-width: 1200px) {
+    .container { 
+        background-color: darkturquoise;
+    }
+
+}
+
+ @media (max-width: 580px) {
+
+
+    .container { 
+        background-color: dimgray;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
