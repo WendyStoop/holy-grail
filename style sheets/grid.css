@@ -1,6 +1,6 @@
 body {
     background-color: blue;
-    margin: 20px
+    margin: 20px;
 }
 
 nav { 
@@ -36,8 +36,8 @@ header, footer {
 .container{
     background-color: darkseagreen;
     display: grid;
-    grid-template-columns: 200px 300px 200px;
-    grid-auto-columns: minmax(200px, auto);
+    grid-template-columns: 20% 50% 30%;
+    grid-auto-columns: minmax(250px, auto);
     
 
 @media (min-width: 580px), screen and (max-width: 1200px) {
@@ -58,6 +58,4 @@ header, footer {
 
 
     }
-
-
 
